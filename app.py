@@ -591,4 +591,4 @@ def on_ban_user(data):
     logger.info(f"User {banned_username} banned from room {room_id} by {banner_id}")
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, host='0.0.0.0', port=5000)
+    socketio.run(app, debug=True, host='0.0.0.0', port=5002)
