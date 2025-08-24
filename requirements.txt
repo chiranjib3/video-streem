@@ -1,0 +1,14 @@
+# Core web framework dependencies
+Flask==2.3.3
+Flask-SocketIO==5.3.6
+
+# Audio processing dependencies
+numpy==1.24.3
+librosa
+
+# File handling and utilities
+Werkzeug==2.3.7
+
+# For better compatibility and performance
+python-socketio==5.9.0
+python-engineio==4.7.1
